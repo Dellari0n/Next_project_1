@@ -11,9 +11,7 @@ export default async function Home() {
         Список карток
       </div>
       <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil facere nesciunt tenetur in, 
-        inventore quam beatae omnis magnam laboriosam totam velit voluptatibus quo ut molestiae
-         molestias aliquam aut quis odio?
+        текст змінено
       </div>
       <Catalog data={card}/>
     </>
