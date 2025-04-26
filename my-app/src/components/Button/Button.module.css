@@ -1,0 +1,27 @@
+.button{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    padding: 20px 40px 24px;
+    border-radius: var(--br-20);
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.dafault{
+
+}
+
+.outline{
+    border-width: 2px;
+    border-color: var(--blue-1);
+}
+.outline:hover{
+    border-color: var(--blue-2);
+    background-color: var(--blue-3);
+}
+.link:hover{
+    color: var(--blue-2);
+}

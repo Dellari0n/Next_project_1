@@ -1,0 +1,39 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 703px;
+    width: 540px;
+    background-color: var(--black-3);
+    border-radius: var(--br-20);
+}
+
+.imgWrap{
+    position: relative;
+    height: 300px;
+}
+
+.img{
+    border-top-left-radius: var(--br-20);
+    border-top-right-radius: var(--br-20);
+    object-fit: cover;
+    object-position: top;
+}
+.card__body{
+    padding: 20px 32px 32px;
+}
+.description{
+    margin-top: 8px;
+}
+
+.cardInner {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* дуже важливо — займе залишок після img */
+    padding: 20px 32px 32px;
+}
+
+.action{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: auto;
+}

@@ -1,0 +1,29 @@
+.type{
+    position: absolute;
+    padding: 2px 12px;
+    border-radius: var(--br-10);
+    bottom: 32px;
+    left: 32px;
+}
+
+.pve{
+    background-color: var(--blue-2);
+    color: var(--white);
+}
+
+.pvp{
+    background-color: var(--white);
+    color: var(--blue-1);
+}
+
+.details{
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+
+}
+
+.detail__item{
+    display: flex;
+    flex-direction: column;
+}
